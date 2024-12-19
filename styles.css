@@ -1,55 +1,46 @@
-
-
-
-* {
+@media only screen and (max-width: 600px) {
+    body {
+    }
+    }
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 body {
     background-image: url(madebyy.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
 }
-
 .container {
     width: 100%;
 }
-
 .sidebar {
     width: 200px; /* Lebar sidebar */
     background-color: #333;
     padding: 20px;
     height: 100vh; /* Tinggi sidebar sesuai tinggi viewport */
 }
-
 .logo img {
     height: 50px; /* Atur tinggi logo sesuai kebutuhan */
     display: block;
     margin: 0 auto 20px; /* Pusatkan logo dan beri jarak bawah */
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 nav ul li {
     margin: 15px 0; /* Jarak antar item menu */
 }
-
 nav ul li a {
     color: white;
     text-decoration: none;
 }
-
 nav ul li a:hover {
     text-decoration: underline;
 }
-
 main {
     flex-grow: 1; /* Membuat main mengambil sisa ruang */
     padding: 20px;
@@ -59,34 +50,27 @@ main {
     background-color: rgba(255, 255, 255, 0.8); /* Latar belakang navbar transparan */
     backdrop-filter: blur(10px); /* Efek blur di belakang navbar */
 }
-
 .navbar-brand, .nav-link {
     color: #333; /* Warna teks navbar */
 }
-
 .nav-link:hover {
     color: #6a11cb; /* Warna saat hover */
 }
-
 /* Gaya untuk konten utama */
 .container {
     text-align: center;
     margin-top: 100px; /* Jarak atas */
 }
-
 /* Gaya untuk judul */
 h1 {
     font-size: 3rem; /* Ukuran font besar */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
 }
-
 /* Gaya untuk paragraf */
 p.lead {
     font-size: 1.5rem; /* Ukuran font sedang */
     margin: 20px 0; /* Jarak atas dan bawah */
 }
-
-
 /* Gaya untuk tombol */
 .btn-custom {
     background-color: #ff4081; /* Warna latar belakang tombol */
@@ -96,16 +80,12 @@ p.lead {
     border-radius: 5px; /* Sudut membulat */
     transition: background-color 0.3s ease; /* Transisi saat hover */
 }
-
 .btn-custom:hover {
     background-color: #ff79b0; /* Warna saat hover */
 }
-
 .scrollable { 
     height: 300px;
-
 }
-
 .whatsapp-float {
     position: fixed;
     width: 60px;
@@ -120,7 +100,6 @@ p.lead {
     font-size: 30px;
     z-index: 100;
 }
-
 .whatsapp-float:hover {
     background-color: #128C7E;
 }
